@@ -3,7 +3,7 @@
 greeting = input("Greeting: ").strip().lower()
 
 #conditionals by greetings
-if greeting == "hello":
+if greeting.startswith("hello"):
     print("$0")
 elif greeting[0] == "h":
     print("$20")
