@@ -1,6 +1,6 @@
 # Import the required libraries
 from tkinter import *
-# Create an instance of tkinter frame or window
+# Create an instance of tkinter window
 win=Tk()
 # Set the size of the tkinter window
 win.title("Characters Counter")
