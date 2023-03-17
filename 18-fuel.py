@@ -1,6 +1,7 @@
 while True:
     try:
         fraction = float(eval(input("Fraction: ")))
+        percentage = "{:.0%}".format(fraction)
         if fraction > 1:
             continue
         elif fraction <= 0.01:
@@ -10,13 +11,12 @@ while True:
             print("F")
             break
         else:
-            print("{:.0%}".format(fraction))
+            print(percentage)
             break
     except ValueError:
-        pass
+        continue
     except ZeroDivisionError:
-        pass
+        continue
     except NameError:
-        pass
+        continue
 
-    
