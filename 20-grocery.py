@@ -1,5 +1,3 @@
-import string
-
 grocery_list = {}
 while True:
         try:
