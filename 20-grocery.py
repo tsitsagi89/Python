@@ -7,6 +7,6 @@ while True:
           else:
                grocery_list[item] = 1
         except (EOFError, KeyError):
-              grocery_list = sorted(grocery_list.items(), key = lambda a: a[0])
+              grocery_list = sorted(grocery_list.items())
               for i, c in grocery_list:
                    print(f"{c} {i}") 
